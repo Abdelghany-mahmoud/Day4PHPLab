@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form method=post enctype="multipart/form-data" action="registervalidate.php">
+    First Name: <input type="text" name="firstName"><br><br>
+    Last Name: <input type="text" name="lastName"><br><br>
+    Username: <input required type="text" name="username" /></br></br>
+    email: <input type="email" name="email"></br></br>
+    Password: <input required type="password" name="password" /></br></br>
+    choose your profile pic: <input type="file" name="file" /></br></br>
+    Address: <input type="textarea" name="address"><br><br>
+    Country: <select name="country" id="country">
+      <option value="egypt">Egypt</option>
+      <option value="Sudan">Sudan</option>
+      <option value="usa">usa</option>
+      <option value="germany">germany</option>
+    </select><br><br>
+    Gender: <input type="radio" name="gender" id="" value="male">Male
+    <input type="radio" name="gender" value="female">Female
+    <br><br>department: <input type="text" name="department">
+  
+    <br><br><input type="submit">
+  </form>
+</body>
+</html>
